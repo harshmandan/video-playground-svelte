@@ -16,6 +16,8 @@
 		y: 0,
 	};
 
+	let videoUrl = "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_10MB.mp4";
+
 	function handleMouseup(e) {
 		enableCommenting = true;
 		const boundingRect = videoPlayer.getBoundingClientRect();
@@ -116,7 +118,7 @@
 					<video
 						height="340"
 						width="640"
-						src="https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_10MB.mp4"
+						src={videoUrl}
 						on:mouseup={handleMouseup}
 						bind:currentTime={time}
 						type="video/mp4"
