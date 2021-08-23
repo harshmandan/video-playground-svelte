@@ -116,7 +116,7 @@
 					<video
 						height="340"
 						width="640"
-						src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
+						src="https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_10MB.mp4"
 						on:mouseup={handleMouseup}
 						bind:currentTime={time}
 						type="video/mp4"
