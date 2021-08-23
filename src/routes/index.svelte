@@ -1,5 +1,6 @@
 <script lang="ts">
 	import logo from "$assets/logo.png";
+	import videoAsset from "$assets/big_buck_bunny.mp4";
 	import MdIcon from "$src/components/MdIcon.svelte";
 	import { mdiPlay } from "@mdi/js";
 	import { fly } from "svelte/transition";
@@ -15,8 +16,6 @@
 		x: 0,
 		y: 0,
 	};
-
-	let videoUrl = "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_10MB.mp4";
 
 	function handleMouseup(e) {
 		enableCommenting = true;
@@ -118,7 +117,7 @@
 					<video
 						height="340"
 						width="640"
-						src={videoUrl}
+						src={videoAsset}
 						on:mouseup={handleMouseup}
 						bind:currentTime={time}
 						type="video/mp4"
