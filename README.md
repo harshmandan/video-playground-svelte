@@ -6,4 +6,4 @@ A video playground built with Svelte. This project showcases media (specifically
 
 This website is not responsive! Works well on desktop.
 
-Play with it [here 🚀](https://boring-hawking-502fe5.netlify.app/).
+Play with it [here 🚀](https://video-playground-svelte.netlify.app/).
